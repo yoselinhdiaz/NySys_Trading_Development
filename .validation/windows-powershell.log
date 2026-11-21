@@ -1,0 +1,214 @@
+PASS 1 - PowerShell parser and manifest inventory
+[claude] CLI not found on PATH.
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+DryRun Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+PASS 2 - Full dry run has no writes
+[claude] CLI not found on PATH.
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+[claude] CLI not found on PATH.
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+PASS 3 - Agent and skill selection
+[claude] CLI not found on PATH.
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+Begin Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+Complete Install E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+[claude] CLI not found on PATH.
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+Verified E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+[claude] CLI not found on PATH.
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+PASS 4 - Complete dual-agent install, byte equality and idempotency
+[claude] CLI not found on PATH.
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+DryRun Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+PASS 5 - Uninstall dry run has no writes
+Failed: SHA-256 mismatch: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development\SKILL.md
+Failed: SHA-256 mismatch: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development\SKILL.md
+PASS 6 - Tamper rejection and preservation
+[claude] CLI not found on PATH.
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\fb225fd747c74f4dbab6905028dc10d1\fill-feasibility-and-impossible-fill-detection
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\d7a53974ac914e37af4b6c120f19af4b\monte-carlo-trade-resampling-and-drawdown-distribution
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\c40e6b0bb5544bd3b74fae80cad144eb\nysys-mql5-development
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\aa6a2c7c8e6e415b9a93798ae0e88594\nysys-ninjascript-development
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\52e1f0b3a96245f88287be1b19871681\nysys-quant-backtesting
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\5a2ac40c81334759aa60a961c3f388c9\nysys-scalping-strategy-engineering
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\fd470f9f2d2b4a4285c9a0d47351a17e\nysys-strategy-validation
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\fe0bc8cbe6074380b65177258d3b25d3\nysys-trading-code-review
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\nysys-trading-development\8d1f9229898a4bf789f93dffa9bcfdce\nysys-trading-risk-guard
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\555468c029ee430e83c05d2e29aea6af\fill-feasibility-and-impossible-fill-detection
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\60df44ebb4f74d5d95a8cda62f635a16\monte-carlo-trade-resampling-and-drawdown-distribution
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\9f3a95e2212847c29a683223578bd762\nysys-mql5-development
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\f8c5b0021c7b4a14b0a3fc49333853d8\nysys-ninjascript-development
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\91a130005b7c431593eb43753de18a7d\nysys-quant-backtesting
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\37761d92f675492c929382a0b03a86f2\nysys-scalping-strategy-engineering
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\30da1036b07940eeae5dc28b64672fbe\nysys-strategy-validation
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\4e5f6e04849442a0b5c06c47552e4a2a\nysys-trading-code-review
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+Begin Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+Backup: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\nysys-trading-development\46b044417cdf4e1196f0b7d8ca5d6b3b\nysys-trading-risk-guard
+Complete Uninstall E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+Failed: Missing installation: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+[claude] CLI not found on PATH.
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\fill-feasibility-and-impossible-fill-detection
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-mql5-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-ninjascript-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-quant-backtesting
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-scalping-strategy-engineering
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-strategy-validation
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-code-review
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.agents\skills\nysys-trading-risk-guard
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\fill-feasibility-and-impossible-fill-detection
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\monte-carlo-trade-resampling-and-drawdown-distribution
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-ninjascript-development
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-quant-backtesting
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-scalping-strategy-engineering
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-strategy-validation
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-code-review
+No change: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-trading-risk-guard
+PASS 7 - Uninstall, 18 intact backups and repeated uninstall
+[claude] CLI not found on PATH.
+Failed: Foreign or modified directory: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\Project con espacios\.claude\skills\nysys-mql5-development
+Failed: Unknown skill: nonexistent-demo
+PASS 8 - Foreign collision and unknown selection
+Failed: Name conflict in another scope: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\.agents\skills\nysys-trading-risk-guard
+PASS 9 - Same-name ancestor conflict
+Failed: SHA-256 mismatch: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0\changed-package\skills\nysys-custom\nysys-mql5-development\SKILL.md
+PASS 10 - Package corruption rejected before installation
+Failed: Invalid or duplicate skill: fill-feasibility-and-impossible-fill-detection
+PASS 11 - Duplicate manifest names rejected
+Fixtures retained: E:\NySys-Trading-Development\.validation\aa1e6b15915342b58f0ded247277cbf0

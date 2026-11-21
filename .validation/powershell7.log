@@ -1,0 +1,12 @@
+PASS 1 - PowerShell parser and manifest inventory
+PASS 2 - Full dry run has no writes
+PASS 3 - Agent and skill selection
+PASS 4 - Complete dual-agent install, byte equality and idempotency
+PASS 5 - Uninstall dry run has no writes
+PASS 6 - Tamper rejection and preservation
+PASS 7 - Uninstall, 18 intact backups and repeated uninstall
+PASS 8 - Foreign collision and unknown selection
+PASS 9 - Same-name ancestor conflict
+PASS 10 - Package corruption rejected before installation
+PASS 11 - Duplicate manifest names rejected
+Fixtures retained: E:\NySys-Trading-Development\.validation\0c0adca485804d96afd8d6e0053eff6f

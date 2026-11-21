@@ -1,0 +1,127 @@
+﻿{
+    "schema":  1,
+    "version":  "1.0",
+    "skills":  [
+                   {
+                       "name":  "fill-feasibility-and-impossible-fill-detection",
+                       "kind":  "upstream",
+                       "files":  {
+                                     "LICENSE.txt":  "19DF5B14E32A0200EBAE5195F32A2F73083D9F5DC923B7A172DCEA9E0C4B76D7",
+                                     "SKILL.md":  "79388C9A1AEDF3318BDEF0F68CC636BDC09A537E95744B1E1DEC738703BA0B7D"
+                                 },
+                       "source":  {
+                                      "type":  "adapted",
+                                      "repository":  "https://github.com/Kryhr/26-quant-trading-skills",
+                                      "commit":  "80c2f860f322207526ce7f31901234313253f263",
+                                      "path":  "skills/fill-feasibility-and-impossible-fill-detection/SKILL.md",
+                                      "license":  "MIT",
+                                      "notice":  "LICENSES/Kryhr-MIT.txt",
+                                      "reviewed":  "2026-11-18"
+                                  }
+                   },
+                   {
+                       "name":  "monte-carlo-trade-resampling-and-drawdown-distribution",
+                       "kind":  "upstream",
+                       "files":  {
+                                     "LICENSE.txt":  "19DF5B14E32A0200EBAE5195F32A2F73083D9F5DC923B7A172DCEA9E0C4B76D7",
+                                     "SKILL.md":  "4CAA06C7771AEC6FAA64DBBB5A036B760DE2DEA2BD7CD4C17A0F5BF00D42C26F"
+                                 },
+                       "source":  {
+                                      "type":  "adapted",
+                                      "repository":  "https://github.com/Kryhr/26-quant-trading-skills",
+                                      "commit":  "80c2f860f322207526ce7f31901234313253f263",
+                                      "path":  "skills/monte-carlo-trade-resampling-and-drawdown-distribution/SKILL.md",
+                                      "license":  "MIT",
+                                      "notice":  "LICENSES/Kryhr-MIT.txt",
+                                      "reviewed":  "2026-11-18"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-mql5-development",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "7B98711414E4ED8C30A480318690F64CE57814A8F63674C8DC6A93C3CCFB09EE"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-ninjascript-development",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "9616E428C20ADC0DAAF7026E06FC0CA7CC18F006DF0399A3D6B0326324B36F34"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-quant-backtesting",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "9A0AFCE1825C8852B70B77507ACD7002DCCDDA3EE9CE9007764472C829CC8596"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-scalping-strategy-engineering",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "4CC7AC34EFCE0821CFEFBD2795A756CE5B99CF191FCA299C8CA56584BD9C0142"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-strategy-validation",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "78B0C6193C671BC4D85F90498EFFB344F5F595038003EC2C39E3EC195F578E0A"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-trading-code-review",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "265B7CEDAD95CA0495BF683BDD8A3C0903B84BA1D3513AB455CE1F26E20F0666"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "nysys-trading-risk-guard",
+                       "kind":  "nysys-custom",
+                       "files":  {
+                                     "SKILL.md":  "1C772B9AD5FCA19E09C72C0A170C57F60292C850B3669450D32E795679EB2396"
+                                 },
+                       "source":  {
+                                      "type":  "NySys original"
+                                  }
+                   },
+                   {
+                       "name":  "fill-feasibility-and-impossible-fill-detection",
+                       "kind":  "upstream",
+                       "files":  {
+                                     "LICENSE.txt":  "19DF5B14E32A0200EBAE5195F32A2F73083D9F5DC923B7A172DCEA9E0C4B76D7",
+                                     "SKILL.md":  "79388C9A1AEDF3318BDEF0F68CC636BDC09A537E95744B1E1DEC738703BA0B7D"
+                                 },
+                       "source":  {
+                                      "type":  "adapted",
+                                      "repository":  "https://github.com/Kryhr/26-quant-trading-skills",
+                                      "commit":  "80c2f860f322207526ce7f31901234313253f263",
+                                      "path":  "skills/fill-feasibility-and-impossible-fill-detection/SKILL.md",
+                                      "license":  "MIT",
+                                      "notice":  "LICENSES/Kryhr-MIT.txt",
+                                      "reviewed":  "2026-11-18"
+                                  }
+                   }
+               ]
+}
