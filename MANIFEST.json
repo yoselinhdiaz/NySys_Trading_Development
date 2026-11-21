@@ -57,6 +57,16 @@
       }
     },
     {
+      "name": "nysys-pinescript-development",
+      "kind": "nysys-custom",
+      "files": {
+        "SKILL.md": "00751229D39ABAA4951CE90DBEB860E64F38FDD1795A40CA0009D42BAF253713"
+      },
+      "source": {
+        "type": "NySys original"
+      }
+    },
+    {
       "name": "nysys-quant-backtesting",
       "kind": "nysys-custom",
       "files": {

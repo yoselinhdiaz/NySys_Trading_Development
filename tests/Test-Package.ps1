@@ -43,7 +43,7 @@ foreach ($script in @(Get-ChildItem -LiteralPath $package -Filter '*.ps1' -File)
     [System.Management.Automation.Language.Parser]::ParseFile($script.FullName, [ref]$tokens, [ref]$errors) | Out-Null
     Require ($errors.Count -eq 0) "Parse errors: $($script.Name)"
 }
-Require ($manifest.skills.Count -eq 9) 'Unexpected skill count.'
+Require ($manifest.skills.Count -eq 10) 'Unexpected skill count.'
 'PASS 1 - PowerShell parser and manifest inventory'
 
 $before = Snapshot $project
@@ -87,7 +87,7 @@ Require ((Snapshot $project) -ceq $before) 'Tampered files were changed.'
 Require (@(Get-ChildItem -LiteralPath $codexRoot -Force).Count -eq 0) 'Codex still has skills.'
 Require (@(Get-ChildItem -LiteralPath $claudeRoot -Force).Count -eq 0) 'Claude still has skills.'
 $backupSkills = @(Get-ChildItem -LiteralPath $project -Force -Recurse -Filter 'SKILL.md' -File)
-Require ($backupSkills.Count -eq 18) 'Unexpected number of backed-up skills.'
+Require ($backupSkills.Count -eq 20) 'Unexpected number of backed-up skills.'
 foreach ($backup in $backupSkills) {
     $skill = $manifest.skills | Where-Object name -CEQ $backup.Directory.Name
     Require ((Get-FileHash -LiteralPath $backup.FullName).Hash -ceq $skill.files.'SKILL.md') 'Invalid backup.'
