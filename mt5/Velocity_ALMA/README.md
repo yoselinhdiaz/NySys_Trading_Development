@@ -156,10 +156,12 @@ ejecución en cuenta ni un forward test.
 | 56 | `pos_dir`: 1 long, −1 short, 0 sin trade |
 | 43 / 44 / 45 / 46 | `dev` / `mad_raw` / `vol` / `vol_rank` (diagnóstico del CSV) |
 
-## Desviaciones visuales (D1-D6)
+## Desviaciones visuales (D1-D10)
 
 MT5 no puede reproducir píxel a píxel el motor de dibujo de TradingView. Las
-seis diferencias son de presentación; ninguna toca señales ni niveles.
+diez diferencias son de presentación; ninguna toca señales ni niveles. D7-D10
+son las que completa la lista de «Diferencias inevitables» de la cabecera del
+`.mq5`; ninguna repite a D1-D6.
 
 - **D1 · Sin alfa.** MT5 no dibuja rellenos translúcidos: cada color se
   pre-mezcla con el color de fondo del gráfico y se recalcula si el fondo
@@ -185,19 +187,50 @@ seis diferencias son de presentación; ninguna toca señales ni niveles.
   el plot TP1 leía la banda inferior). Por eso el tipo nunca se cambia: se
   oculta con color `clrNONE` y `OnInit` aborta si el mapa plot→buffer no es
   el esperado (33/34/35 y 36/37, mensaje en el log de Expertos).
+- **D7 · `trend == 0` sin cinta ni degradado.** Antes de la primera señal
+  (y solo entonces: `trend` arranca en 0 y no vuelve) MT5 deja la cinta y el
+  degradado en `EMPTY_VALUE`, mientras que el Pine los pinta en gris
+  (`trendCol = color.gray`, 112). Las líneas de basis y bandas sí salen en gris
+  de verdad, con el índice de color 2 (`TV_GRAY`, `C'128,128,128'`). No es un
+  caso de D1: D1 describe *cómo* se aproxima el alfa, D7 *cuándo* no hay
+  relleno en absoluto.
+- **D8 · BUY / SELL sin globo.** El Pine usa `label.new` con
+  `style_label_up` / `style_label_down` (globo con texto dentro). MT5 no tiene
+  ese objeto: se dibuja un `OBJ_ARROW` con las flechas Wingdings 233 / 234 a
+  `ATR · InpLabelAtrOff` (0.25 por defecto) del extremo de la vela, y el texto
+  BUY / SELL en un `OBJ_TEXT` aparte, `Arial Black` 9, **0.35 · ATR más allá de
+  la flecha** (con 0.10 el texto se montaba encima del glifo, que se ancla en
+  el punto y no en su borde). Mismo color que la señal y mismo lado: texto
+  debajo en BUY, encima en SELL.
+- **D9 · El texto TP1 / TP2 / SL va fuera del glifo.** En el Pine el texto va
+  dentro del `plotshape` (`text = "TP1"`…, 214-216); `DRAW_ARROW` no admite
+  texto, así que el glifo es un círculo relleno (Wingdings 108, TP1/TP2 como
+  TV) o un aspa (251, SL) y el texto se añade en un `OBJ_TEXT` gris, tamaño 7,
+  a `0.10 · ATR` de la marca, por debajo o por encima según el lado del toque.
+  Usa el mismo `ENUM_HIT_KIND` que el buffer de toque, así que glifo y texto no
+  se pueden desincronizar. Ojo: no es D3, que habla de las etiquetas de precio
+  del trade vigente.
+- **D10 · Etiquetas limitadas a las últimas 3000 velas.** `VALMA_LABEL_BARS =
+  3000`: las flechas BUY / SELL y los textos de toque solo se crean si
+  `i >= rates_total - 3000`, y `ResetAll` los borra por prefijo al recalcular.
+  El Pine limita por número de objetos (`max_labels_count = 500`), MT5 por
+  ventana de barras; con 3000 velas el número de objetos queda acotado sin
+  recortar el historial visible de un M15. Los toques siguen en su buffer
+  aunque su etiqueta ya no se dibuje.
 
 ## Alcance y límites
 
 - Indicador de solo lectura: no hay ejecución de órdenes, gestión de posición
   ni llamadas de trading.
-- La paridad documentada es numérica (CSV) y de estructura visual (D1-D6), no
+- La paridad documentada es numérica (CSV) y de estructura visual (D1-D10), no
   una comparación de píxeles.
 - La evidencia nativa corresponde a Zeven build 101435 con `XAUUSD.raw` M15.
   Otro broker, otro sufijo de símbolo u otro build exige repetir las tres
   capas antes de dar el port por bueno en ese entorno.
-- `max_bars_back = 300` y `max_labels_count = 500` del Pine no tienen
-  equivalente; el motor recalcula completo si el terminal recarga historia y
-  el port mantiene solo 6 objetos por trade.
+- `max_bars_back = 300` del Pine no tiene equivalente directo: el motor recalcula
+  completo si el terminal recarga historia y el port mantiene solo 6 objetos por
+  trade. `max_labels_count = 500` se sustituye por la ventana de 3000 velas de
+  D10.
 
 (c) Nysys Market Solutions. Solo con fines educativos; no es asesoramiento
 financiero.
